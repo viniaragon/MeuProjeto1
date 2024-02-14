@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div id="titulo">
+        <h1>Gerenciamento Pacientes</h1>
+        <div id="painel-gerenciamento-paciente">
+          <div id="insercao-paciente">
+            <input
+              type="text"
+              id="nome-paciente"
+              placeholder="Nome do Paciente"
+            />
+            <button id="botao-paciente-normal">normal</button>
+            <button id="botao-paciente-prioritario">prioritário</button>
+          </div>
+          <div id="div-pacientes">
+            <h2>Lista de Pacientes</h2>
+            <ul id="lista-pacientes"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="classPaciente.js"></script>
+    <script src="pacienteslista.js"></script>
+    <script src="reorganizarListaPacientes.js"></script>
+  </body>
+</html>
